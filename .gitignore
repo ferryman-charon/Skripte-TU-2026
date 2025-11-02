@@ -1,0 +1,8 @@
+.ipython/
+.jupyter/
+.local/
+.stfolder/
+.npm/
+.config/
+.cache/
+.ipynb_checkpoints
