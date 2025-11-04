@@ -109,5 +109,5 @@ def update(i):
 
 fig.tight_layout()
 ani = animation.FuncAnimation(fig, update, frames=range(0,len(time)), init_func=init, interval=20, blit=False)
-ani.save('massOnSphere.gif', writer='pillow', fps=30, dpi=80)
+# ani.save('massOnSphere.gif', writer='pillow', fps=30, dpi=80)
 plt.show()
